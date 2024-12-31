@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Facebook - Clone </title>
+
+    <!-- Initial CSS file for Further configuration here -->
+    <link rel="stylesheet" href = "styles.css">
+
+    <!-- Adding Tailwind CSS CDN link for basic configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Link regarding the font family that we're going to use -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- General Code Configuration Starts here -->
+    <div class="flex flex-col justify-center bgr1 xsz:py-3">
+
+        <div class="main xsz:py-4 sm:py-6 md:py-8 lg:py-10 xl:py-7 xl:pb-10 flex xsz:gap-1 flex-col algn-cntr">
+
+            <!-- Main Facebook Image -->
+            <img src = "icon.svg" alt = "Facebook Icon Image" class = "xsz:w-32 sm:w-40 md:w-48 lg:w-64 xl:w-60 2xl:w-64">
+
+            <!-- Another code block for form related data -->
+            <div class="content1 ft1 flex flex-col xsz:gap-2 bg-white xsz:py-2 xsz:px-1 md:px-2 md:py-3 lg:px-3 xsz:border border-gray-200 xsz:rounded-md ft1 shadow-lg algn-cntr">
+                <p class = "text-center xsz:text-[11px] font-normal md:text-sm lg:text-[18px] md:py-1 lg:py-3"> Log in to Facebook </p>
+                <form class = "flex flex-col xsz:px-4 sm:px-2 xsz:gap-2 md:gap-3 lg:gap-4">
+
+                    <input  id = "emailData" type = "text" placeholder = "Email address or phone number" class = "xsz:text-[10px] md:text-[13px] lg:text-base 2xl:text-lg border border-opacity-25 border-spacing-2 border-gray-600 xsz:w-44 sm:w-56 sm:py-2 sm:px-2 xsz:px-1 xsz:py-1 md:py-2 md:px-2 lg:px-3 md:w-72 lg:w-80 xl:w-96 xl:py-4 xl:px-4 rounded-[4px]">
+                    <input id = "passWord" type = "password" placeholder = "Password" class = "xsz:text-[10px] md:text-[13px] lg:text-base 2xl:text-lg border border-opacity-25 border-spacing-2 border-gray-600 xsz:w-44 sm:w-56 sm:py-2 sm:px-2 xsz:px-1 xsz:py-1 md:py-2 md:px-2 lg:px-3 md:w-72 xl:w-96 xl:py-4 xl:px-4 lg:w-80 rounded-[4px]">
+
+                    <button type = "button" class = "w-auto bg-[#1877f2] rounded-[4px] font-medium text-white xsz:text-[11px] sm:text-[12px] md:text-sm lg:text-[19px] xl:text-xl 2xl:text-[22px] 2xl:py-[10px]  xsz:py-1 md:py-2 lg:py-3"> Log in </button>
+
+                </form>
+                <a href = "#" class = "xsz:text-[9px] sm:text-[10px] md:text-[12px] md:py-1 lg:pt-2 xl:pt-3 2xl:py-3 lg:text-sm 2xl:text-base clr font-medium"> Forgotten account? - Sign up for Facebook </a>
+            </div>
+
+        </div>
+
+        
+    </div>
+    
+    <!-- Another content division block here -->
+    <div class="linkage flex flex-col xsz:mt-8 xsz:mx-4 xsz:gap-2 sm:mt-12 md:mt-14 md:mx-8 lg:mx-14 lg:mt-20 xl:mx-28 xl:mt-24 xl:py-3 2xl:mx-56 2xl:mt-36 sm:mx-5 sm:gap-4">
+    
+        <div class="first-block xsz:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[13px] flex flex-col xsz:gap-2 md:gap-3 font-sans">
+            <p class = "clr2 flex xsz:flex-wrap xsz:gap-1 sm:gap-2">
+                <a href = "#" class = "active:clr"> English (UK) </a>
+                <a href = "#" class = "active:clr"> हिन्दी </a>
+                <a href = "#" class = "active:clr"> ਪੰਜਾਬੀ </a>
+                <a href = "#" class = "active:clr"> اردو </a>
+                <a href = "#" class = "active:clr"> தமிழ் </a>
+                <a href = "#" class = "active:clr"> বাংলা </a>
+                <a href = "#" class = "active:clr"> मराठी </a>
+                <a href = "#" class = "active:clr"> తెలుగు </a>
+                <a href = "#" class = "active:clr"> ગુજરાતી </a>
+                <a href = "#" class = "active:clr"> ಕನ್ನಡ </a>
+                <a href = "#" class = "active:clr"> മലയാളം </a>
+            </p>
+            <hr class = "w-100">
+            <p class = "clr2 flex flex-wrap xsz:gap-1 sm:gap-2">
+                <a href = "#" class = "active:clr"> Sign Up </a>
+                <a href = "#" class = "active:clr"> Log in </a>
+                <a href = "#" class = "active:clr"> Messenger </a>
+                <a href = "#" class = "active:clr"> Facebook Lite </a>
+                <a href = "#" class = "active:clr"> Video </a>
+                <a href = "#" class = "active:clr"> Places </a>
+                <a href = "#" class = "active:clr"> Games </a>
+                <a href = "#" class = "active:clr"> Marketplace </a>
+                <a href = "#" class = "active:clr"> Meta Pay </a>
+                <a href = "#" class = "active:clr"> Meta Store </a>
+                <a href = "#" class = "active:clr"> Meta Quest </a>
+                <a href = "#" class = "active:clr"> Ray-Ban Meta </a>
+                <a href = "#" class = "active:clr"> Meta AI </a>
+                <a href = "#" class = "active:clr"> Instagram </a>
+                <a href = "#" class = "active:clr"> Threads </a>
+                <a href = "#" class = "active:clr"> Fundraisers </a>
+                <a href = "#" class = "active:clr"> Services </a>
+                <a href = "#" class = "active:clr"> Voting Information Centre </a>
+                <a href = "#" class = "active:clr"> Privacy Policy </a>
+                <a href = "#" class = "active:clr"> Privacy Centre </a>
+                <a href = "#" class = "active:clr"> Privacy Groups </a>
+                <a href = "#" class = "active:clr"> Groups </a>
+                <a href = "#" class = "active:clr"> Abouts </a>
+                <a href = "#" class = "active:clr"> Create ad </a>
+                <a href = "#" class = "active:clr"> Create Page </a>
+                <a href = "#" class = "active:clr"> Developers </a>
+                <a href = "#" class = "active:clr"> Careers </a>
+                <a href = "#" class = "active:clr"> Cookies </a>
+                <a href = "#" class = "active:clr"> AdChoices </a>
+                <a href = "#" class = "active:clr"> Terms </a>
+                <a href = "#" class = "active:clr"> Help </a>
+                <a href = "#" class = "active:clr"> Contact uploading and non-users </a>
+            </p>
+        </div>
+
+        <p class = "xsz:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[13px] clr2"> Meta &#169; 2025 </p>
+    
+    </div>
+
+</body>
+</html>

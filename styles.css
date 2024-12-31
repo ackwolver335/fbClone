@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bgr1{
+        @apply bg-[#f2f4f7]
+    }
+
+    .clr{
+        @apply text-[#1877f2]
+    }
+
+    .clr2{
+        @apply text-[#737373]
+    }
+
+    .ft1{
+        font-family: "Roboto", serif;
+    }
+
+    .algn-cntr{
+        align-items: center;
+    }
+}

@@ -1,0 +1,3 @@
+# Facebook Login Page - Clone
+
+- This repository features a stunning clone of a Facebook page, meticulously crafted using HTML and TailwindCSS. The project showcases efficient coding practices and a deep understanding of modern front-end development, brought to life in less than 20 hours. This swift execution not only highlights the prowess in coding but also demonstrates the power and flexibility of TailwindCSS in designing responsive and visually appealing web pages. Dive into the code to explore and learn from this impressive project!
